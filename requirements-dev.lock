@@ -8,4 +8,15 @@
 #   with-sources: false
 
 -e file:.
+coverage==7.4.2
+    # via pytest-cov
+iniconfig==2.0.0
+    # via pytest
+packaging==23.2
+    # via pytest
+pluggy==1.4.0
+    # via pytest
+pytest==8.0.1
+    # via pytest-cov
+pytest-cov==4.1.0
 ruff==0.2.2
